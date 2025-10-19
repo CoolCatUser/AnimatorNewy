@@ -6,13 +6,12 @@ local table_create = table.create
 local cframe_zero = CFrame.new(0,0,0)
 
 
-local PriorityTable = loadstring(game:HttpGet("https://raw.githubusercontent.com/ProudNamed/SuperLightning/refs/heads/main/AnimModule/Priority"))()
-local ConvertToTable = loadstring(game:HttpGet("https://raw.githubusercontent.com/ProudNamed/SuperLightning/refs/heads/main/AnimModule/ConvertToTable"))()
-local AutoGetMotor6D = loadstring(game:HttpGet("https://raw.githubusercontent.com/ProudNamed/SuperLightning/refs/heads/main/AnimModule/AutoGetMotor6D"))()
-local GetFrameInBetween = loadstring(game:HttpGet("https://raw.githubusercontent.com/ProudNamed/SuperLightning/refs/heads/main/AnimModule/GetFrameInBetween"))()
-local GroupTamplate = loadstring(game:HttpGet("https://raw.githubusercontent.com/ProudNamed/SuperLightning/refs/heads/main/AnimModule/GroupTemplate"))()
-local ReturnableTypes = loadstring(game:HttpGet("https://raw.githubusercontent.com/ProudNamed/SuperLightning/refs/heads/main/AnimModule/ReturnableTypes"))()
-
+local PriorityTable = loadstring(game:HttpGet("https://github.com/CoolCatUser/Priority/raw/refs/heads/main/Remade"))()
+local ConvertToTable = loadstring(game:HttpGet("https://github.com/CoolCatUser/ConvertToTable/raw/refs/heads/main/Remade"))()
+local AutoGetMotor6D = loadstring(game:HttpGet("https://github.com/CoolCatUser/AutoGetMotor6D/raw/refs/heads/main/Remade"))()
+local GetFrameInBetween = loadstring(game:HttpGet("https://github.com/CoolCatUser/GetFrameInBetween/raw/refs/heads/main/Remade"))()
+local GroupTamplate = loadstring(game:HttpGet("https://github.com/CoolCatUser/GroupTemplate/raw/refs/heads/main/Remade"))()
+local ReturnableTypes = loadstring(game:HttpGet("https://github.com/CoolCatUser/ReturnableTypes/raw/refs/heads/main/Remade"))()
 type AnimType = ReturnableTypes.AnimationSequance
 type SettingsType = ReturnableTypes.Setting
 type Motor6DorBones = "Motor6D"|"Bone"|nil
